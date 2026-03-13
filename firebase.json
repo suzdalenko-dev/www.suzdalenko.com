@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "public": "publick",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "rewrites": [
+    {
+        "source": "/anuncio/**",
+        "destination": "/anuncio/index.html"
+    },
+    {
+        "source": "/categoria/**",
+        "destination": "/categoria/index.html"
+    },
+    {
+       "source": "**",
+       "destination": "/index.html"
+    }
+  ]
+}
