@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suzdalenko</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-950">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <a href="#" class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-950 text-sm font-semibold text-white">
+          S
+        </div>
+        <div>
+          <div class="text-lg font-semibold tracking-tight">Suzdalenko</div>
+          <div class="text-xs text-slate-500">Motor · maquinaria · industrial</div>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="#" class="text-sm font-medium text-slate-600 hover:text-slate-950">Inicio</a>
+        <a href="#" class="text-sm font-medium text-slate-600 hover:text-slate-950">Categorías</a>
+        <a href="#" class="text-sm font-medium text-slate-600 hover:text-slate-950">Destacados</a>
+        <a href="#" class="text-sm font-medium text-slate-600 hover:text-slate-950">Cómo funciona</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#" class="hidden rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 md:inline-flex">
+          Iniciar sesión
+        </a>
+        <a href="#" class="rounded-xl bg-slate-950 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800">
+          Publicar anuncio
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="mx-auto max-w-7xl px-6 pt-12 pb-8 md:pt-14 md:pb-10">
+      <div class="max-w-4xl">
+        <div class="mb-4 text-sm font-medium text-sky-700">
+          Marketplace moderno para compra y venta profesional
+        </div>
+
+        <h1 class="max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 md:text-6xl leading-[1.04]">
+          Compra y vende motor, maquinaria y stock industrial
+        </h1>
+
+        <p class="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
+          Vehículos, lotes, mobiliario y equipamiento profesional en una plataforma
+          más clara, visual y directa.
+        </p>
+      </div>
+
+      <!-- Search -->
+      <div class="mt-10 rounded-[28px] border border-slate-200 bg-white p-3 shadow-sm">
+        <div class="grid grid-cols-1 gap-3 md:grid-cols-12">
+          <div class="md:col-span-5">
+            <div class="flex h-full items-center rounded-2xl border border-slate-200 bg-white px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="mr-3 h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35m1.85-5.15a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+              </svg>
+              <input
+                type="text"
+                placeholder="Estoy buscando coches, maquinaria, lotes o mobiliario..."
+                class="w-full py-4 text-sm text-slate-900 outline-none placeholder:text-slate-400"
+              />
+            </div>
+          </div>
+
+          <div class="md:col-span-3">
+            <select class="h-full w-full rounded-2xl border border-slate-200 bg-white px-4 py-4 text-sm text-slate-900 outline-none">
+              <option>Todas las categorías</option>
+              <option>Motor</option>
+              <option>Maquinaria</option>
+              <option>Stock industrial</option>
+              <option>Mobiliario</option>
+              <option>Lotes</option>
+            </select>
+          </div>
+
+          <div class="md:col-span-2">
+            <select class="h-full w-full rounded-2xl border border-slate-200 bg-white px-4 py-4 text-sm text-slate-900 outline-none">
+              <option>Toda España</option>
+              <option>Cantabria</option>
+              <option>Madrid</option>
+              <option>Barcelona</option>
+              <option>Valencia</option>
+            </select>
+          </div>
+
+          <div class="md:col-span-2">
+            <button class="h-full w-full rounded-2xl bg-emerald-700 px-4 py-4 text-sm font-semibold text-white transition hover:bg-emerald-800">
+              Buscar
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <div class="mb-6 flex items-end justify-between">
+        <div>
+          <h2 class="text-2xl font-semibold tracking-tight">Categorías principales</h2>
+          <p class="mt-2 text-slate-600">Lo que más se mueve en la plataforma.</p>
+        </div>
+        <a href="#" class="hidden text-sm font-medium text-slate-600 hover:text-slate-950 md:inline">Ver todas</a>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-4 xl:grid-cols-8">
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-50 text-sky-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 16h8m-9 3h10a2 2 0 0 0 1.789-1.106l1.211-2.422A2 2 0 0 0 20 14.578V11a2 2 0 0 0-2-2h-1l-1.342-2.683A2 2 0 0 0 13.87 5H10.13a2 2 0 0 0-1.789 1.106L7 9H6a2 2 0 0 0-2 2v3.578a2 2 0 0 0 .211.894l1.211 2.422A2 2 0 0 0 7 19Z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Motor</h3>
+          <p class="mt-1 text-sm text-slate-500">Coches y vehículos</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-50 text-orange-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9m-9 6h9m-9 6h9M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Stock industrial</h3>
+          <p class="mt-1 text-sm text-slate-500">Excedentes y lotes</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-violet-50 text-violet-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m-7.5-7.5v15"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Maquinaria</h3>
+          <p class="mt-1 text-sm text-slate-500">Equipos y líneas</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50 text-amber-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5h18M6 7.5v9a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 16.5v-9"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Mobiliario</h3>
+          <p class="mt-1 text-sm text-slate-500">Oficina y comercio</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-9 4h12M7 5h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Lotes</h3>
+          <p class="mt-1 text-sm text-slate-500">Liquidaciones</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-cyan-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5V7.5A1.5 1.5 0 0 1 4.5 6h15A1.5 1.5 0 0 1 21 7.5v9A1.5 1.5 0 0 1 19.5 18h-15A1.5 1.5 0 0 1 3 16.5Z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Electrónica</h3>
+          <p class="mt-1 text-sm text-slate-500">Profesional</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-50 text-rose-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V6a4 4 0 1 1 8 0v1m-9 0h10l1 11H6L7 7Z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Hostelería</h3>
+          <p class="mt-1 text-sm text-slate-500">Equipamiento</p>
+        </a>
+
+        <a href="#" class="group rounded-3xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25v7.5A2.25 2.25 0 0 1 18.75 18H5.25A2.25 2.25 0 0 1 3 15.75v-7.5A2.25 2.25 0 0 1 5.25 6h13.5A2.25 2.25 0 0 1 21 8.25Z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold">Herramientas</h3>
+          <p class="mt-1 text-sm text-slate-500">Manual y eléctrica</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section class="mx-auto max-w-7xl px-6 py-8">
+      <div class="mb-6 flex items-end justify-between">
+        <div>
+          <h2 class="text-2xl font-semibold tracking-tight">Destacados</h2>
+          <p class="mt-2 text-slate-600">Coches, maquinaria, lotes y mobiliario publicados recientemente.</p>
+        </div>
+        <a href="#" class="hidden text-sm font-medium text-slate-600 hover:text-slate-950 md:inline">Ver más</a>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <article class="overflow-hidden rounded-3xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:shadow-sm">
+          <div class="relative h-56 bg-slate-200">
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80" alt="Coche" class="h-full w-full object-cover" />
+            <span class="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1 text-xs font-semibold text-slate-800">Motor</span>
+          </div>
+          <div class="p-5">
+            <div class="mb-1 text-2xl font-semibold tracking-tight">18.900 €</div>
+            <h3 class="text-base font-semibold leading-6">BMW Serie 3 Touring</h3>
+            <p class="mt-2 text-sm text-slate-600">Automático · Diésel · 2021 · 128.000 km</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-sm text-slate-500">Cantabria</span>
+              <a href="#" class="text-sm font-medium text-slate-900 hover:text-emerald-700">Ver ficha</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-3xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:shadow-sm">
+          <div class="relative h-56 bg-slate-200">
+            <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80" alt="Maquinaria" class="h-full w-full object-cover" />
+            <span class="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1 text-xs font-semibold text-slate-800">Maquinaria</span>
+          </div>
+          <div class="p-5">
+            <div class="mb-1 text-2xl font-semibold tracking-tight">12.500 €</div>
+            <h3 class="text-base font-semibold leading-6">Torno CNC industrial</h3>
+            <p class="mt-2 text-sm text-slate-600">Revisado · 3 ejes · listo para producción</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-sm text-slate-500">Madrid</span>
+              <a href="#" class="text-sm font-medium text-slate-900 hover:text-emerald-700">Ver ficha</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-3xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:shadow-sm">
+          <div class="relative h-56 bg-slate-200">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Mobiliario" class="h-full w-full object-cover" />
+            <span class="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1 text-xs font-semibold text-slate-800">Mobiliario</span>
+          </div>
+          <div class="p-5">
+            <div class="mb-1 text-2xl font-semibold tracking-tight">4.950 €</div>
+            <h3 class="text-base font-semibold leading-6">Lote mobiliario de oficina</h3>
+            <p class="mt-2 text-sm text-slate-600">Mesas, sillas, armarios y recepción</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-sm text-slate-500">Bilbao</span>
+              <a href="#" class="text-sm font-medium text-slate-900 hover:text-emerald-700">Ver ficha</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-3xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:shadow-sm">
+          <div class="relative h-56 bg-slate-200">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80" alt="Stock industrial" class="h-full w-full object-cover" />
+            <span class="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1 text-xs font-semibold text-slate-800">Lotes</span>
+          </div>
+          <div class="p-5">
+            <div class="mb-1 text-2xl font-semibold tracking-tight">2.800 €</div>
+            <h3 class="text-base font-semibold leading-6">Lote de estanterías metálicas</h3>
+            <p class="mt-2 text-sm text-slate-600">Gran capacidad · ideal almacén y picking</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-sm text-slate-500">Valencia</span>
+              <a href="#" class="text-sm font-medium text-slate-900 hover:text-emerald-700">Ver ficha</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
